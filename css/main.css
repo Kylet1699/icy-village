@@ -251,8 +251,7 @@ section {
 /* https://www.w3schools.com/howto/howto_css_parallax.asp */
 /* https://unsplash.com/photos/LZ6BTZnizD8 */
 .hero-section {
-  /* background-image: url('../img/hero.jpg'); */
-  background-image: url('img/hero.jpg');
+  background-image: url('../img/hero.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
