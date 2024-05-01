@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icy Village</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <!-- Abril Fatface/ Cormonrant/ Quicksandh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
+  </head>
+
+    <body>
+      <!-- Nav bar -->
+      <header id="navbar">
+        <nav>
+          <ul class="content-wrap">
+            <li class="logo-nav">
+              <!-- https://www.vecteezy.com/vector-art/181306-ice-cream-shop-logo -->
+                <img class="header-title" src="img/logo.png" width="64" height="64" alt="Icy Village's logo">
+            </li>
+            <li class="home-nav"><a href="index.html" class="header-btn">Home</a></li>
+            <li class="products-nav" id="dropdown-btn">
+              <a href="products.html" class="header-btn">Products</a>
+              <div class="dropdown" id="dropdown">
+                <a href="products.html#specialties" class="dropdown-btn">Specialties</a>
+                <a href="products.html#dairy-free" class="dropdown-btn">Dairy Free</a>
+              </div>   
+            </li> 
+            <!-- https://www.w3schools.com/css/css_dropdowns.asp -->
+            <li class="specialties-nav hidden"><a href="products.html#specialties" class="header-btn">Specialties</a></li>  
+            <li class="df-nav hidden"><a href="products.html#dairy-free" class="header-btn">Dairy Free</a></li> 
+            <li class="about-nav"><a href="index.html#about" class="header-btn">About</a></li>
+            <li class="order-nav"><a href="order.html" class="header-btn">Cart</a></li>
+        </ul>
+        </nav>
+    </header>
+
+      <div class="content-wrap">
+        <div class="order-steps">
+          <div class="step-align">
+            <img src="img/complete.png" width="41" height="41" alt="1">
+            <p>ORDER</p>
+          </div>
+          <div class="step-align">
+            <img src="img/complete.png" width="41" height="41" alt="2">
+            <p>PAYMENT</p>
+          </div>
+          <div class="step-align">
+            <img src="img/3-filled.png" width="41" height="41" alt="3">
+           <p>CONFIRMATION</p>
+          </div>
+        </div>
+      </div>
+      <div class="summary-wrap">
+        <div class="order-summary">
+          <div class="confirmation-grid">
+            <div class="message">
+              <h1>THANK YOU!</h1>
+              <h2>Your order has been received.</h2>
+              <h2>An order confirmation has been sent to your email.</h2>
+              <h3>Your order number is 00123456</h3>
+              <h3>You can reach us at (778) 987-6543 or icyvillage@gmail.com with any feedback or questions.</h3>
+              <div class="message-btn btn-display-big"><a href="index.html" class="menu-btn">Back to main page</a></div>
+            </div>
+
+            <div class="order-sum">
+              <h2>Order Summary</h2>
+              <hr class="solid">
+              <div class="order-sum-item">
+                <h3 class="grid-a">CREAMY CHOCOLATE</h3>
+                <h3 class="grid-b">1 scoop</h3>
+                <h3 class="grid-c">$3.56</h3>
+              </div>
+
+              <hr class="solid">
+              <div class="order-sum-item">
+                <h3 class="grid-a">TUTTI FRUITY</h3>
+                <h3 class="grid-b">2 scoop</h3>
+                <h3 class="grid-c">$7.30</h3>
+              </div> 
+
+              <hr class="solid">
+              <h3 class="align-right">Subtotal ---- $10.86</h3>
+              <h3 class="align-right">GST ---- $0.54</h3>
+              <h3 class="align-right">Total ---- $11.40</h3>
+              <div class="message-btn btn-display-small"><a href="index.html" class="menu-btn">Back to main page</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section">
+              <ul class="footer-inline">
+                <li class="footer-item"><a href="index.html">Home</a></li>
+                <li class="footer-item"><a href="products.html">Product</a></li>
+                <li class="footer-item"><a href="index.html#about">About</a></li>
+                <li class="footer-item"><a href="citation.html">Citation</a></li>
+              </ul>
+            </div>
+        </footer>
+    </body>
+</html>

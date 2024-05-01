@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icy Village</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <!-- Abril Fatface/ Cormonrant/ Quicksandh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
+  </head>
+
+    <body>
+        <!-- Nav bar -->
+        <header id="navbar">
+            <nav>
+              <ul class="content-wrap">
+                <li class="logo-nav">
+                  <!-- https://www.vecteezy.com/vector-art/181306-ice-cream-shop-logo -->
+                    <img class="header-title" src="img/logo.png" width="64" height="64" alt="Icy Village's logo">
+                </li>
+                <li class="home-nav"><a href="index.html" class="header-btn">Home</a></li>
+                <li class="products-nav" id="dropdown-btn">
+                  <a href="products.html" class="header-btn">Products</a>
+                  <div class="dropdown" id="dropdown">
+                    <a href="products.html#specialties" class="dropdown-btn">Specialties</a>
+                    <a href="products.html#dairy-free" class="dropdown-btn">Dairy Free</a>
+                  </div>   
+                </li> 
+                <!-- https://www.w3schools.com/css/css_dropdowns.asp -->
+                <li class="specialties-nav hidden"><a href="products.html#specialties" class="header-btn">Specialties</a></li>  
+                <li class="df-nav hidden"><a href="products.html#dairy-free" class="header-btn">Dairy Free</a></li> 
+                <li class="about-nav"><a href="index.html#about" class="header-btn">About</a></li>
+                <li class="order-nav"><a href="order.html" class="header-btn">Cart</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <!-- product display -->
+        <div class="product-wrap">
+            <div class="content-wrap product-title">                    
+                <h1>Our Shop</h1>
+                <p>We offer a unique selection of flavours like huckleberry and peanut butter. Lactose intolerant? Checkout our dairy-free options as well.</p> 
+                <div class="product-title" id="specialties">
+                    <h2>SPECIALTIES</h2>
+                    <p>Creamy scoops of flavours</p>
+                </div>   
+                <div class="products signature-section content-wrap">
+                    <div class="product-card signature">
+                        <a href="product-detail.html">
+                        <h3>OLD BAY CARAMEL</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/old_bay_caramel.png" width="279" height="217" alt="A scoop of Old Bay Caramel ice cream.">
+                        </div></a>
+                        <p>Old Bay seasoning works with everything, even ice cream.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+     
+                    <div class="product-card signature">
+                        <a href="product-detail.html">
+                        <h3>BLUEBERRY CARDAMOM GRAHAM</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/blueberry_cardamom_graham.png" width="279" height="217" alt="A scoop of Blueberry Cardamom Graham ice cream.">
+                        </div></a>
+                        <p>This one tastes like a blueberry muffin.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                    
+                    <div class="product-card signature">
+                        <a href="product-detail.html">
+                        <h3>PB CRUMBLE</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/pb_crumble.png" width="279" height="217" alt="A scoop of PB Crumble ice cream.">
+                        </div></a>
+                        <p>Peanut butter cookie pieces in creamy vanilla.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+
+                    <div class="product-card signature">
+                        <a href="product-detail.html">
+                        <h3>MAPLE BACON</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/maple_bacon.png" width="279" height="217" alt="A scoop of Maple Bacon ice cream.">
+                        </div></a>
+                        <p>Bacon and ice cream are a dynamic duo.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+     
+                    <div class="product-card signature">
+                        <a href="product-detail.html">
+                        <h3>HUCKLEBERRY</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/huckleberry.png" width="279" height="217" alt="A scoop of Huckleberry ice cream.">
+                        </div></a>
+                        <p>Native berries give this its deep purple color.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+        
+                    <div class="product-card signature">
+                        <a href="product-detail.html">
+                        <h3>CREAMY CHOCOLATE</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/creamy_chocolate.png" width="279" height="217" alt="A scoop of Creamy Chocolate ice cream.">
+                        </div></a>
+                        <p>As creamy as it gets.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                    
+                </div>
+                    <!-- DAIRY FREE -->
+                <div class="product-title" id="dairy-free">
+                    <h2>DAIRY FREE</h2>
+                    <p>Made with locally sourced oat milk</p>
+                </div>
+                <div class="products dairy-section content-wrap">   
+                    <div class="product-card dairy-free">
+                        <a href="product-detail.html">
+                        <h3>TUTTI FRUITY</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/tutti_fruity.png" width="279" height="217" alt="A scoop of Tutti Fruity ice cream.">
+                        </div></a>
+                        <p>Candied fruit and pecans stud this scoop.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+               
+                    <div class="product-card dairy-free">
+                        <a href="product-detail.html">
+                        <h3>UBE</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/ube.png" width="279" height="217" alt="A scoop of Ube ice cream.">
+                        </div></a>
+                        <p>Purple yams work wonders here!</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                    
+                    <div class="product-card dairy-free">
+                        <a href="product-detail.html">
+                        <h3>GRAPE PINEAPPLE</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/grape_pineapple.png" width="279" height="217" alt="A scoop of Grape Pineapple ice cream.">
+                        </div></a>
+                        <p>The flavor is so popular, it's also a beer!</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                    
+                    <div class="product-card dairy-free">
+                        <a href="product-detail.html">
+                        <h3>EARL GREY & LEMON</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/earl_grey_lemon.png" width="279" height="217" alt="A scoop of Earl Grey & Lemon ice cream.">
+                        </div></a>
+                        <p>Citrus-y flavor goodness! </p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                
+                    <div class="product-card dairy-free">
+                        <a href="product-detail.html">
+                        <h3>WILD BLUEBERRY</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/wild_blueberry.png" width="279" height="217" alt="A scoop of Wild Blueberry ice cream.">
+                        </div></a>
+                        <p>It's made with local wild blueberries.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                    
+                    <div class="product-card dairy-free">
+                        <a href="product-detail.html">
+                        <h3>COCONUT BLACK CURRANT</h3>
+                        <div class="product-image">
+                            <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                            <img src="img/coconut_black_currant.png" width="279" height="217" alt="A scoop of Coconut Black Currant ice cream.">
+                        </div></a>
+                        <p>Every scoop is studded with tart berries.</p>
+                        <h4>$3.56</h4>
+                        <div class="menu-nav">
+                            <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section">
+                <ul class="footer-inline">
+                    <li class="footer-item"><a href="index.html">Home</a></li>
+                    <li class="footer-item"><a href="products.html">Product</a></li>
+                    <li class="footer-item"><a href="index.html#about">About</a></li>
+                    <li class="footer-item"><a href="citation.html">Citation</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

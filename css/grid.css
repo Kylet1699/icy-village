@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+
+  }
+  
+  .nav-section-link {
+    
+    display: inline-block;
+    
+    background-color: #F9DB79;
+    color: #4F4966;
+    margin: 0.25rem;
+    padding: 1rem 4rem;
+    text-align: center;
+  
+    text-decoration: none;
+  
+    transition-property: text-decoration; 
+    transition: background-color 0.5s;
+    transition-duration: 0.5s;
+  
+  }
+  
+  .nav-section-link:hover, .nav-section-link:focus {
+    background-color: #6D597A;
+    color: #F0F0F0;
+  
+    text-decoration: underline;
+  }
+  
+  /* SOURCE: Lecture tutorial from Jan 25*/
+
+  @media (min-width: 45.375rem) {
+    .grid.column {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 72.625rem) {
+    .grid.column {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  

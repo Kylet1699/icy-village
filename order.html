@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Icy Village</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <!-- Abril Fatface/ Cormonrant/ Quicksandh -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
+  </head>
+
+    <body>
+        <!-- Nav bar -->
+        <header id="navbar">
+            <nav>
+              <ul class="content-wrap">
+                <li class="logo-nav">
+                  <!-- https://www.vecteezy.com/vector-art/181306-ice-cream-shop-logo -->
+                    <img class="header-title" src="img/logo.png" width="64" height="64" alt="Icy Village's logo">
+                </li>
+                <li class="home-nav"><a href="index.html" class="header-btn">Home</a></li>
+                <li class="products-nav" id="dropdown-btn">
+                  <a href="products.html" class="header-btn">Products</a>
+                  <div class="dropdown" id="dropdown">
+                    <a href="products.html#specialties" class="dropdown-btn">Specialties</a>
+                    <a href="products.html#dairy-free" class="dropdown-btn">Dairy Free</a>
+                  </div>   
+                </li> 
+                <!-- https://www.w3schools.com/css/css_dropdowns.asp -->
+                <li class="specialties-nav hidden"><a href="products.html#specialties" class="header-btn">Specialties</a></li>  
+                <li class="df-nav hidden"><a href="products.html#dairy-free" class="header-btn">Dairy Free</a></li> 
+                <li class="about-nav"><a href="index.html#about" class="header-btn">About</a></li>
+                <li class="order-nav"><a href="order.html" class="header-btn">Cart</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        
+        <!-- ORDER SUMMARY -->
+        <div class="content-wrap">
+            <div class="order-steps">
+                <div class="step-align">
+                    <img src="img/1-filled.png" width="41" height="41" alt="1">
+                    <p>ORDER</p>
+                </div>
+                <div class="step-align">
+                    <img src="img/2.png" width="41" height="41" alt="2">
+                    <a href="payment.html"><p class="clickable-order-step">PAYMENT</p></a>
+                </div>
+                <div class="step-align">
+                    <img src="img/3.png" width="41" height="41" alt="3">
+                    <p>CONFIRMATION</p>
+                </div>
+            </div>
+            <div class="order-summary">
+                <h1>Order Summary</h1>
+                <hr class="solid">
+                <div class="ordered-item">
+                    <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                    <img class="order-img" src="img/creamy_chocolate.png" width="223" height="173" alt="A scoop of creamy chocolate ice cream">
+                    <h2 class="item-name">CREAMY CHOCOLATE</h2>    
+                    <div class="details">                
+                        <p class="desc">As creamy as it gets.</p>
+                        <div class="scoops">
+                            <p class="scoops-input">1</p>
+                            <p class="scoops-label">scoop(s)</p>
+                        </div>
+                        <div class="order-price">
+                            <p class="item-price">$3.56</p>
+                            <p><a href=# class="inline-link">Remove</a></p>
+                        </div>
+                    </div>
+                </div>   
+                
+                <hr class="solid">
+                <div class="ordered-item">
+                    <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                    <img class="order-img" src="img/tutti_fruity.png" width="223" height="173" alt="A sccop of tutti fruity ice cream">
+                    <h2 class="item-name">TUTTI FRUITY</h2>
+                    <div class="details"> 
+                        <p class="desc">Candied fruit and pecans stud this scoop.</p>
+                        <div class="scoops">
+                            <p class="scoops-input">2</p>
+                            <p class="scoops-label">scoop(s)</p>
+                        </div>
+                        <div class="order-price">
+                            <p class="item-price">$7.30</p>
+                            <p><a href=# class="inline-link">Remove</a></p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="solid">
+    
+    
+                <!-- totals -->
+                <div class="totals">
+                    <div class="item">
+                        <p class="total-label">Subtotal</p>
+                        <p class="total-value">10.86</p>
+                    </div>
+                    <div class="item">
+                        <p class="total-label">GST</p>
+                        <p class="total-value">0.54</p>
+                    </div>
+                    <div class="half-div">
+                        <!-- <hr class="half-div"> -->
+                    </div>
+                    <div class="item">
+                        <p class="total-label">TOTAL</p>
+                        <p class="total-value">$11.40</p>
+                    </div>
+                </div>
+    
+                <div class="checkout-button">
+                    <a href="payment.html" class="menu-btn">Continue to checkout</a>
+                    <p class="continue-shopping">Or <a href="products.html" class="inline-link">continue shopping</a></p>
+                </div>   
+                <!-- <p class="total-label">Or continue to checkout below</p> -->
+                
+            
+                <!-- // totals -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section">
+                <ul class="footer-inline">
+                    <li class="footer-item"><a href="index.html">Home</a></li>
+                    <li class="footer-item"><a href="products.html">Product</a></li>
+                    <li class="footer-item"><a href="index.html#about">About</a></li>
+                    <li class="footer-item"><a href="citation.html">Citation</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

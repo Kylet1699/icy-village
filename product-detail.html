@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Icy Village</title>
+
+        <link href="css/main.css" rel="stylesheet">
+        <script src="js/main.js"></script>
+        <!-- Abril Fatface/ Cormonrant/ Quicksand -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant&family=Quicksand:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <body class="details-bg">
+        <!-- Nav bar -->
+        <header id="navbar">
+            <nav>
+              <ul class="content-wrap">
+                <li class="logo-nav">
+                  <!-- https://www.vecteezy.com/vector-art/181306-ice-cream-shop-logo -->
+                    <img class="header-title" src="img/logo.png" width="64" height="64" alt="Icy Village's logo">
+                </li>
+                <li class="home-nav"><a href="index.html" class="header-btn">Home</a></li>
+                <li class="products-nav" id="dropdown-btn">
+                  <a href="products.html" class="header-btn">Products</a>
+                  <div class="dropdown" id="dropdown">
+                    <a href="products.html#specialties" class="dropdown-btn">Specialties</a>
+                    <a href="products.html#dairy-free" class="dropdown-btn">Dairy Free</a>
+                  </div>   
+                </li> 
+                <!-- https://www.w3schools.com/css/css_dropdowns.asp -->
+                <li class="specialties-nav hidden"><a href="products.html#specialties" class="header-btn">Specialties</a></li>  
+                <li class="df-nav hidden"><a href="products.html#dairy-free" class="header-btn">Dairy Free</a></li> 
+                <li class="about-nav"><a href="index.html#about" class="header-btn">About</a></li>
+                <li class="order-nav"><a href="order.html" class="header-btn">Cart</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <main>
+            <!-- <div class="content-wrap"> -->
+            <div class="detailed-container">
+                <div class="detailed-title detailed-card">
+                    <div class="half half-top">
+                        <h1>DOUBLE CHOCOLATE</h1>
+                    </div>
+                    <div class="half">
+                        <h2>Ingredients</h2>
+                        <p>sugar, milk, unsweetened cocoa powder, egg, semisweet chocolate, heavy cream, vanilla</p>
+                        <div class="allergy-section">
+                            <img src="img/glutten-free.png" alt="GF">
+                            <p>Glutten-free</p>
+                        </div>
+                        <div class="allergy-section">
+                            <img src="img/dairy-based.png" alt="DB">
+                            <p>Dairy-based</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="detailed-img detailed-card">
+                    <!-- https://www.foodnetwork.com/restaurants/photos/50-states--50-scoops -->
+                    <img src="img/creamy_chocolate.png" width="577" height="433" alt="A scoop of Creamy Chocolate ice cream.">
+                </div>
+                <div class="detailed-description detailed-card">
+                    <div class="half description half-top">
+                        <p>Chocolate lovers this is for you! Icy Village's Double Chocolate is the perfect way to enjoy dessert after dinner. Essentially chocolate milk in ice cream form!</p>
+                    </div>
+                    <div class="half price-detail">
+                        <p>250ml / pint ........... $7.89</p>    
+                        <p>100ml / scoop .......... $3.56</p>
+
+                        <a href="order.html" class="menu-btn add-to-cart">Add to cart</a>
+                        <a href="products.html" class="see-more-btn"><p>See More Flavours</p></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-section">
+                <ul class="footer-inline">
+                    <li class="footer-item"><a href="index.html">Home</a></li>
+                    <li class="footer-item"><a href="products.html">Product</a></li>
+                    <li class="footer-item"><a href="index.html#about">About</a></li>
+                    <li class="footer-item"><a href="citation.html">Citation</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
